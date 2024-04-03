@@ -6543,7 +6543,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 6200000, guid: 00451604187ea124ba3a5739f59ff8c6, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -6594,7 +6594,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1448772987, guid: 198e55e40476c6f48bb1646a7c769024, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6633,7 +6633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40dc1819d99c9ad41974a3a34a5454b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 400
+  speed: 6
 --- !u!95 &1772163525
 Animator:
   serializedVersion: 5

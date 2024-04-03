@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("moveY", change.y);
         }
 
-        myRigidbody.velocity = change * speed * Time.deltaTime;
+        myRigidbody.velocity = change * speed;
 
 
      

@@ -5,7 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 23e5426bc53cc9046a3152c7582b8f9e
+  - enabled: 1
+    path: Assets/Scenes/SalleDebut.unity
+    guid: 053ccc5a39d8e6548a540b8857a93be5
+  - enabled: 1
+    path: Assets/Scenes/SalleMarch.unity
+    guid: 58e8b664bfee44044858210fca03741e
+  - enabled: 1
+    path: Assets/Scenes/SalleHub.unity
+    guid: f218617d0fb26e2419cf09f9a3ab30bd
+  - enabled: 1
+    path: Assets/Scenes/SalleDash.unity
+    guid: 61db1ad8ac7c4494fba65150daf2ef9c
+  - enabled: 1
+    path: Assets/Scenes/SalleAttaque.unity
+    guid: 9e90b1efa135ea146bbd4a3095b9f585
+  - enabled: 1
+    path: Assets/Scenes/SalleEnnemi.unity
+    guid: 9dbfafcd809e17945805d9af3badbdcd
   m_configObjects: {}

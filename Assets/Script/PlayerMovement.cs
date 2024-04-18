@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 change;
     private Animator animator;
 
+
+
     void Start()
     {
         animator = GetComponent<Animator>();

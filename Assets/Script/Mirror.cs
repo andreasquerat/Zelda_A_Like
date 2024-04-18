@@ -21,7 +21,7 @@ public class Mirror : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)&& playerInRange)
+        if (Input.GetKeyDown(KeyCode.P)&& playerInRange)
         {
             if (dialogBox.activeInHierarchy)
             {

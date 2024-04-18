@@ -10,11 +10,17 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
 
 
+    public bool canDash = false;
 
+    public void UnlockDash()
+    {
+        canDash = true; 
+    }
     void Start()
     {
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
+        DontDestroyOnLoad(this);
     }
 
     // Update is called once per frame

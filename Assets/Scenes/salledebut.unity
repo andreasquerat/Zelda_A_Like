@@ -842,11 +842,11 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.52, y: -0.59, z: -7.780001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.036574945, y: -0.21949573, z: -17.784601}
+  m_LocalScale: {x: 2.285938, y: 2.285938, z: 2.285938}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1772163523}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
@@ -862,8 +862,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1772163523}
   smoothing: 0.1
-  maxPosition: {x: 11.7, y: 10}
-  minPosition: {x: -4.66, y: -5.41}
+  maxPosition: {x: 20, y: 10}
+  minPosition: {x: -10, y: -10}
 --- !u!1 &673932477
 GameObject:
   m_ObjectHideFlags: 0
@@ -12146,6 +12146,7 @@ GameObject:
   - component: {fileID: 1772163520}
   - component: {fileID: 1772163524}
   - component: {fileID: 1772163525}
+  - component: {fileID: 1772163526}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -12289,7 +12290,8 @@ Transform:
   m_LocalPosition: {x: -0.504, y: -0.49398, z: 0}
   m_LocalScale: {x: 0.43745714, y: 0.43745714, z: 0.43745714}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 519420032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1772163524
@@ -12304,7 +12306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40dc1819d99c9ad41974a3a34a5454b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  moveSpeed: 6
+  canDash: 0
 --- !u!95 &1772163525
 Animator:
   serializedVersion: 5
@@ -12326,6 +12329,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1772163526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772163519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf145bfd4033144982362ce75eff921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashDistance: 5
+  dashDuration: 0.2
+  dashCooldown: 1
+  canDash: 0
 --- !u!1 &1826167582
 GameObject:
   m_ObjectHideFlags: 0
@@ -12662,7 +12681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: SalleMarch
-  playerPosition: {x: 0, y: 0}
+  spawnPosition: {x: -12.12, y: 1.57}
 --- !u!61 &2001451974
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12927,7 +12946,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 519420032}
   - {fileID: 1898083691}
   - {fileID: 1772163523}
   - {fileID: 2117353748}

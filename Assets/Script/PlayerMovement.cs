@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed;
+    public float moveSpeed;
     private Rigidbody2D myRigidbody;
     private Vector3 change;
     private Animator animator;
@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("moveY", change.y);
         }
 
-        myRigidbody.velocity = change * speed;
+        myRigidbody.velocity = change * moveSpeed;
 
 
      

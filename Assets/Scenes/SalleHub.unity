@@ -13772,7 +13772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: SalleDash
-  spawnPosition: {x: -0.11, y: -4.06}
+  spawnPosition: {x: -0.25, y: -4}
 --- !u!61 &1557767441
 BoxCollider2D:
   m_ObjectHideFlags: 0

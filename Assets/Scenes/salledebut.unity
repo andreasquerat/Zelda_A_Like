@@ -12341,7 +12341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf145bfd4033144982362ce75eff921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashDistance: 5
+  dashDistance: 2
   dashDuration: 0.2
   dashCooldown: 1
   canDash: 0

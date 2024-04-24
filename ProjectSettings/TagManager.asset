@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Dash_power_up
+  - Faux_power_up
   layers:
   - Default
   - TransparentFX

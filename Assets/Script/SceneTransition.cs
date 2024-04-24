@@ -7,6 +7,7 @@ public class SceneTransition : MonoBehaviour
 {
     public string sceneToLoad;
     public Vector2 spawnPosition;
+   
     public void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player") && !other.isTrigger)
@@ -19,7 +20,7 @@ public class SceneTransition : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+    
     }
 
     // Update is called once per frame

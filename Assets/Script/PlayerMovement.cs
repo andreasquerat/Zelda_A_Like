@@ -11,10 +11,15 @@ public class PlayerMovement : MonoBehaviour
 
 
     public bool canDash = false;
+    public bool canAttack = false;
 
     public void UnlockDash()
     {
-        canDash = true; 
+        canDash = true;
+    }
+    public void Unlockatk()
+    {
+        canAttack = true;
     }
     void Start()
     {

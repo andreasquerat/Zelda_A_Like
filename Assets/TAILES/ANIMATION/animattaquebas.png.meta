@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0ab4d86ae9678794687fd980185ed9e5
+guid: 8896c13bee541474190b61714866b4e1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Animattaquedroite_0
+      name: animattaquebas_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,41 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e04a47ac9a2090d4dba796f6eae08aef
-      internalID: -1723752328
+      spriteID: 6a76c6283b963e447b6f3ac89a2b04ea
+      internalID: 624295967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animattaquedroite_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a7dfcb4f442bce45b26be63375a527b
-      internalID: -952331995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animattaquedroite_2
+      name: animattaquebas_1
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,41 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e4c227cf9e3b2f4c9d2b49641f6c12a
-      internalID: 1192211833
+      spriteID: d0a034d75956f2e43a63d8efb845b782
+      internalID: -253169560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animattaquedroite_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 342b9ffc4971c97488b911f6312f6851
-      internalID: 1892739776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animattaquedroite_4
+      name: animattaquebas_2
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,41 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92247398a2048084cbcfbb7e68187f62
-      internalID: 852556613
+      spriteID: 0685f2d1d5d0f1f46b60c691aec8fbad
+      internalID: -134824055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animattaquedroite_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4756aa745188469439a05c99b03b2df1
-      internalID: -114571939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Animattaquedroite_6
+      name: animattaquebas_3
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +174,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f62dd173deb5fb48ad9f5b7fb47b3ec
-      internalID: 1982454072
+      spriteID: 6f53e5e0c164c5a4da074d1fec17c362
+      internalID: -1772218331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animattaquebas_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78167f072d1409447863ed2c5fdbd7f7
+      internalID: 707365311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animattaquebas_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3590451162f93f14fa980cdf09b20759
+      internalID: -1910713254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animattaquebas_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc98898923422db46b8bd0b04b03fc05
+      internalID: 841199099
       vertices: []
       indices: 
       edges: []
@@ -254,13 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Animattaquedroite_0: -1723752328
-      Animattaquedroite_1: -952331995
-      Animattaquedroite_2: 1192211833
-      Animattaquedroite_3: 1892739776
-      Animattaquedroite_4: 852556613
-      Animattaquedroite_5: -114571939
-      Animattaquedroite_6: 1982454072
+      animattaquebas_0: 624295967
+      animattaquebas_1: -253169560
+      animattaquebas_2: -134824055
+      animattaquebas_3: -1772218331
+      animattaquebas_4: 707365311
+      animattaquebas_5: -1910713254
+      animattaquebas_6: 841199099
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

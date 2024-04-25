@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b06eace3c9c815945b8e6406c7360149
+guid: c407b432d2dc2be429b2c2d0513cc85a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: animattaquehaut_0
+      name: Animattaquedroite_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,41 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a19ae855eb8c0ea479733e45994f7ebf
-      internalID: -494760330
+      spriteID: 294fae06734cb0447b5d321e6e3fb08d
+      internalID: -1919894320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animattaquehaut_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6988b741b7da69479daf9fc5bf16257
-      internalID: -1308332077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: animattaquehaut_2
+      name: Animattaquedroite_1
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,41 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2de71655bc1bcb42b064759348a611a
-      internalID: 1102769394
+      spriteID: 6c937fecf4fc82e42a70299162ea05ba
+      internalID: 1501428229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animattaquehaut_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 048f90f82d69e5b428aa282069658da2
-      internalID: 2124440158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: animattaquehaut_4
+      name: Animattaquedroite_2
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,41 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb7b0b9cee8545d43a19407cf0b8b269
-      internalID: 582248425
+      spriteID: a7d40cc2f0d912c4e8bff91ff73ea6a5
+      internalID: 1232302804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animattaquehaut_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d57e699df74e654dbf4db80525f054b
-      internalID: 914345372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: animattaquehaut_6
+      name: Animattaquedroite_3
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +174,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d24b8b70b41f3344b9863daa4d24ff45
-      internalID: -616098727
+      spriteID: 96bc1d4014bc67947b97f607e3756ae3
+      internalID: 1943663145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animattaquedroite_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9384781e260ea48ba7a84773f9b57b
+      internalID: -1816522366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animattaquedroite_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0597f566c582a4f925e0339c9f15a5
+      internalID: 1046885829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animattaquedroite_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf4d962e4be4464cb899c2602bcf94b
+      internalID: -1906589627
       vertices: []
       indices: 
       edges: []
@@ -254,13 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      animattaquehaut_0: -494760330
-      animattaquehaut_1: -1308332077
-      animattaquehaut_2: 1102769394
-      animattaquehaut_3: 2124440158
-      animattaquehaut_4: 582248425
-      animattaquehaut_5: 914345372
-      animattaquehaut_6: -616098727
+      Animattaquedroite_0: -1919894320
+      Animattaquedroite_1: 1501428229
+      Animattaquedroite_2: 1232302804
+      Animattaquedroite_3: 1943663145
+      Animattaquedroite_4: -1816522366
+      Animattaquedroite_5: 1046885829
+      Animattaquedroite_6: -1906589627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

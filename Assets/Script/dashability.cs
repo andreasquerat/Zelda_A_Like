@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class dashability : MonoBehaviour
+public class dashAbility : MonoBehaviour
 {
-    public float dashDistance = 5f; // Distance du dash
-    public float dashDuration = 0.2f; // Durée du dash en secondes
-    public float dashCooldown = 1f; // Temps de recharge du dash en secondes
+    public float dashDistance = 5f;
+    public float dashDuration = 0.2f;
+    public float dashCooldown = 1f;
 
     private bool isDashing = false;
     private Vector2 dashDirection;
@@ -14,27 +12,35 @@ public class dashability : MonoBehaviour
     private float dashCooldownTimer = 0f;
     public bool canDash = false;
 
-    private Animator animator; // Référence à l'Animator
+    private Animator animator; 
 
-    private void Start()
+    void Start()
     {
-        animator = GetComponent<Animator>(); // Initialiser la référence à l'Animator
+        animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    void Update()
     {
-        if (!isDashing && canDash) // Ajout de la vérification de canDash
+        if (!isDashing && canDash)
         {
-            // Mouvement normal du personnage
             float horizontalInput = Input.GetAxisRaw("Horizontal");
             float verticalInput = Input.GetAxisRaw("Vertical");
 
             Vector2 movement = new Vector2(horizontalInput, verticalInput).normalized;
             transform.Translate(movement * Time.deltaTime);
+
+            // Déclenchement de l'animation de déplacement
+            if (movement.magnitude > 0)
+            {
+                animator.SetBool("IsMoving", true);
+            }
+            else
+            {
+                animator.SetBool("IsMoving", false);
+            }
         }
 
-        // Déclenchement du dash
-        if (Input.GetKeyDown(KeyCode.Space) && dashCooldownTimer <= 0f && canDash) // Ajout de la vérification de canDash
+        if (Input.GetKeyDown(KeyCode.Space) && dashCooldownTimer <= 0f && canDash)
         {
             float horizontalInput = Input.GetAxisRaw("Horizontal");
             float verticalInput = Input.GetAxisRaw("Vertical");
@@ -43,13 +49,8 @@ public class dashability : MonoBehaviour
             {
                 StartDash(new Vector2(horizontalInput, verticalInput).normalized);
             }
-            if (animator!=null)
-            {
-                animator.SetTrigger("Dash");
-            }
         }
 
-        // Gestion du dash en cours
         if (isDashing)
         {
             dashTimer += Time.deltaTime;
@@ -64,14 +65,11 @@ public class dashability : MonoBehaviour
             }
         }
 
-        // Gestion du cooldown du dash
         if (dashCooldownTimer > 0f)
         {
             dashCooldownTimer -= Time.deltaTime;
         }
-
     }
-
 
     void StartDash(Vector2 direction)
     {
@@ -79,6 +77,12 @@ public class dashability : MonoBehaviour
         dashDirection = direction;
         dashTimer = 0f;
         dashCooldownTimer = dashCooldown;
+
+        // Déclenchement de l'animation de dash
+        animator.SetTrigger("DashUp");
+        animator.SetTrigger("DashDown");
+        animator.SetTrigger("DashLeft");
+        animator.SetTrigger("DashRight");
     }
   
     void StopDash()

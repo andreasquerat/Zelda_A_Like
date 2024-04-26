@@ -16,6 +16,7 @@ public class PlayerAttack : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        DontDestroyOnLoad(this);
     }
 
     void Update()
@@ -43,7 +44,7 @@ public class PlayerAttack : MonoBehaviour
         }
         else if (verticalInput < 0)
         {
-            PlayAttackAnimation("AttackDown");
+            PlayAttackAnimation("Attack");
         }
     }
 

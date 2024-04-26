@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 01889f8fbd7008548b98575ec259a129
+guid: 31dd3a91e4bab4e48bccea13155dd2ad
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dash droite_0
+      name: Dash bas (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 64
-        height: 32
+        y: 64
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc1b8400a3fbe934d8a1693716e804ef
-      internalID: 866747411
+      spriteID: d171283504eaa654390dfda75da3910a
+      internalID: -1850796245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash droite_1
+      name: Dash bas (1)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254776ed8a181f64398db885213c395b
+      internalID: -577392665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash bas (1)_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
-        width: 64
-        height: 32
+        y: 64
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +153,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e30b3fe984e29744b873311379030702
-      internalID: -1858693266
+      spriteID: 2cd748b15d7f5e647b8810c15ae988bc
+      internalID: 708989377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash droite_2
+      name: Dash bas (1)_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954b90cbc93c4a74c9e0537c098b6db5
+      internalID: -563916779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash bas (1)_4
       rect:
         serializedVersion: 2
         x: 128
-        y: 32
-        width: 64
-        height: 32
+        y: 64
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +195,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a1dd0e318c0a1a41b71ec055636bdbb
-      internalID: 1521923589
+      spriteID: 93a26e03722308340bd9338632101d21
+      internalID: 1054105793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash droite_3
+      name: Dash bas (1)_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4ab622d664f6049b0eae227321ee1f
+      internalID: 1791040822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash bas (1)_6
       rect:
         serializedVersion: 2
         x: 192
-        y: 32
-        width: 64
-        height: 32
+        y: 64
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,83 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfff612843773eb45995ffe1ba6fd642
-      internalID: -1576443527
+      spriteID: ca04ce91d13c371418b68c3d3879d1bf
+      internalID: -1331588417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash droite_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 32
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08394baac954b8d478fbfe5d8f83be9c
-      internalID: 1132626071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dash droite_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 32
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0607ecfa2ac525b42a69c4f02518ea17
-      internalID: 765356490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dash droite_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 32
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebb08436ac3f01846a88e7b743c0ca28
-      internalID: -668801242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dash droite_7
+      name: Dash bas (1)_7
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 32
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b210b386e6771494e8c8e692162e520c
-      internalID: 1123848966
+      spriteID: 4fac6baa8419e6c459bfe6f4923eb28d
+      internalID: -1188337860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash droite_8
+      name: Dash bas (1)_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6db2b69ee96b34bacfbc35a1de65c1
+      internalID: -744631318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash bas (1)_9
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 64
-        height: 32
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +300,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7927b8e9d820cd5409d4a5f97d27e1f2
-      internalID: 1458905393
+      spriteID: 52387e5694bc5a74eb6c22871f5e92a4
+      internalID: 1518185679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash droite_9
+      name: Dash bas (1)_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12405cc45c9463a4baed8c2b2bc544ab
+      internalID: 495418421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash bas (1)_11
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 64
-        height: 32
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,20 +342,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9e1285fb5b21ee42bfa433edc0c3a17
-      internalID: -1144339608
+      spriteID: 6c6232a04f8640345a289174e2a17159
+      internalID: -1593241723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash droite_10
+      name: Dash bas (1)_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1883c37ae389b4c4c9b7dcebfed38f85
+      internalID: -167657888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash bas (1)_13
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 64
-        height: 32
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,71 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29c3620d81cbf7342b64c9484c3478ef
-      internalID: -1130175012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dash droite_11
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac7030f29451cd947a7a9e1080b31035
-      internalID: 910381696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dash droite_12
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b636bf390712154469ea141831b0a144
-      internalID: -1752920110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dash droite_13
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af652d52f18288c478ea4fea1122293b
-      internalID: 1364410471
+      spriteID: 027a7ef5437bd7d44a052257d90e56c0
+      internalID: -575351491
       vertices: []
       indices: 
       edges: []
@@ -401,20 +401,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dash droite_0: 866747411
-      Dash droite_1: -1858693266
-      Dash droite_10: -1130175012
-      Dash droite_11: 910381696
-      Dash droite_12: -1752920110
-      Dash droite_13: 1364410471
-      Dash droite_2: 1521923589
-      Dash droite_3: -1576443527
-      Dash droite_4: 1132626071
-      Dash droite_5: 765356490
-      Dash droite_6: -668801242
-      Dash droite_7: 1123848966
-      Dash droite_8: 1458905393
-      Dash droite_9: -1144339608
+      Dash bas (1)_0: -1850796245
+      Dash bas (1)_1: -577392665
+      Dash bas (1)_10: 495418421
+      Dash bas (1)_11: -1593241723
+      Dash bas (1)_12: -167657888
+      Dash bas (1)_13: -575351491
+      Dash bas (1)_2: 708989377
+      Dash bas (1)_3: -563916779
+      Dash bas (1)_4: 1054105793
+      Dash bas (1)_5: 1791040822
+      Dash bas (1)_6: -1331588417
+      Dash bas (1)_7: -1188337860
+      Dash bas (1)_8: -744631318
+      Dash bas (1)_9: 1518185679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

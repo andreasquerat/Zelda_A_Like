@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Dash_power_up
   - Faux_power_up
+  - Ennemi
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
+  - Ennemy
   - 
   - 
   - 

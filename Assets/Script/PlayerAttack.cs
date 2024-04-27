@@ -24,7 +24,7 @@ public class PlayerAttack : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (canAttack && Input.GetKeyDown(KeyCode.E))
         {
             Attack();
         }
@@ -51,10 +51,12 @@ public class PlayerAttack : MonoBehaviour
     void Attack()
     {
         Collider[] hitEnemies = Physics.OverlapSphere(transform.position, attackRange, enemyLayer);
+        Debug.Log("Attack() called");
 
         foreach (Collider enemy in hitEnemies)
         {
-            EnnemyHealth enemyHealth = enemy.GetComponent<EnnemyHealth>();
+            EnnemyHealth enemyHealth = enemy.GetComponent
+            <EnnemyHealth>();
 
             if (enemyHealth != null)
             {
@@ -73,7 +75,8 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }
-private void OnTriggerEnter2D(Collider2D other)
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Faux_power_up"))
         {

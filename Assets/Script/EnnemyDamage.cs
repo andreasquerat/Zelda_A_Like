@@ -1,48 +1,58 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
+using UnityEngine.SceneManagement;
+
+
 
 public class EnnemyDamage : MonoBehaviour
 {
-    public GameObject player;
+    public int RespawnSceneIndex; // Indice de la scène de respawn
     public int damage = 1;
     private PlayerHealth playerHealth;
 
-    // Start is called before the first frame update
     void Start()
     {
         playerHealth = FindObjectOfType<PlayerHealth>();
 
         // S'assurer que le script PlayerHealth est bien trouvé
-        if (playerHealth != null)
-        {
-            // Écouter l'événement OnPlayerDamaged
-            playerHealth.OnPlayerDamaged.AddListener(ReactToPlayerDamage);
-        }
-        else
+        if (playerHealth == null)
         {
             Debug.LogWarning("PlayerHealth not found!");
         }
-        DontDestroyOnLoad(this);
     }
+
     void ReactToPlayerDamage()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    
+        if (playerHealth != null && playerHealth.health > 0)
+        {
+            playerHealth.TakeDamage(damage);
+            if (playerHealth.health <= 0)
+            {
+                RespawnPlayer();
+            }
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.CompareTag("Player"))
         {
-            playerHealth.TakeDamage(damage);
+            ReactToPlayerDamage();
         }
     }
 
+    void RespawnPlayer()
+    {
+        // Détruire le joueur avant le respawn pour éviter les doublons
+        Destroy(playerHealth.gameObject);
+
+        // Charger la scène de respawn après un court délai
+        Invoke("LoadRespawnScene", 1f);
+    }
+
+    void LoadRespawnScene()
+    {
+        SceneManager.LoadScene(RespawnSceneIndex);
+    }
 }

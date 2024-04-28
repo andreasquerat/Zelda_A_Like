@@ -24,7 +24,7 @@ public class PlayerAttack : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
-        if (canAttack && Input.GetKeyDown(KeyCode.E))
+        if (canAttack && Input.GetKeyDown(KeyCode.X))
         {
             Attack();
         }
